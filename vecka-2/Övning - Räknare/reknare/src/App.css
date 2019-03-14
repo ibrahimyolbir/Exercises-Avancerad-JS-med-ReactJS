@@ -1,0 +1,26 @@
+*  {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0;
+  }
+.counter1,.counter2,.counter3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+}
+button{
+  width: 90px;
+  font-size: 32px;
+  padding: 12px;
+  border: none;
+  background-color: #00BCD4;
+  color: white;
+  border-radius: 39px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.5;
+}

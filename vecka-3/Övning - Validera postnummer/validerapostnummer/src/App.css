@@ -1,0 +1,9 @@
+.App{
+  top: 100px;
+  position: absolute;
+  left: 50%;
+}
+
+.App>input{
+width: 200px;
+}
